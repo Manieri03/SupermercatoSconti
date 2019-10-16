@@ -6,7 +6,7 @@ namespace SupermercatoSconti
     {
         static void Main(string[] args)
         {
-            Console.Write("Inserisci l'importo che hai speso: ");
+            Console.Write("Inserisci l'importo che hai speso:  ");
             double spesa = double.Parse(Console.ReadLine());
             if (spesa > 100)
             {
